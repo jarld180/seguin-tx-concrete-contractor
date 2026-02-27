@@ -62,11 +62,6 @@ const App: React.FC = () => {
                 <Route path="/garage-floors" element={<GarageFloors />} />
                 <Route path="/sidewalks" element={<Sidewalks />} />
                 <Route path="/services" element={<Services />} />
-                                <Route path="/san-antonio" element={<Home cityName="San Antonio" />} />
-                <Route path="/new-braunfels" element={<Home cityName="New Braunfels" />} />
-                <Route path="/schertz" element={<Home cityName="Schertz" />} />
-                <Route path="/cibolo" element={<Home cityName="Cibolo" />} />
-                <Route path="/converse" element={<Home cityName="Converse" />} />
                 <Route path="/:city/:service" element={<CityService />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/terms-of-service" element={<TermsOfService />} />
@@ -82,4 +77,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
